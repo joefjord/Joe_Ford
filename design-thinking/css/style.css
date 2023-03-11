@@ -1,0 +1,43 @@
+.jumbotron {
+    background-color: rgba(0,0,0,.1);
+    background-image: url(/images/p5.png);
+}
+
+.jumbotron h1 {
+  font-weight: 100;
+  color: darkred !important;
+}
+
+.glyphicon-triangle-bottom {
+  padding-left: 7px;
+  font-size: .8em;
+}
+
+.wolf {max-width:30% !important;}
+
+.container h3 {padding-top: 25px;}
+
+.row-top-spacer {
+    margin-top: 25px;
+}
+
+footer {
+    height: 75px;
+    width: 100%;
+    background-color: rgba(0,0,0,.8);
+}
+
+footer a {
+    height: 15px;
+    width: 15px;
+    color: rgba(0,0,0,0);
+}
+
+footer a:visited{
+    color: rgba(0,0,0,0);
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}

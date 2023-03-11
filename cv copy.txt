@@ -1,0 +1,49 @@
+<h3>cv</h3>
+
+<h3>Education:</h3>
+
+<p>BFA 1997 - Arkansas State University</p>
+<p>Study Abroad 1997 - Radboud Universiteit Nijmegen</p>
+<p>MFA 2001 - University of Illinois Urbana-Champaign</p>
+
+<h3>Work Experience:</h3>
+
+<p>2012 - present - Assistant Professor of Digital Design, Arkansas State University Department of Art, Jonesboro, AR</p>
+<p>2010 - 2012 - Art Director, True VM, Jonesboro, AR</p>
+<p>2007 - 2010 - Art Director & Brand Manager, Jimco Lamp and Home Decor, Bono, AR</p>
+<p>2005 - 2007 - Assistant Director of Grants & Sponsored Programs, New Jersey City University, Jersey City, NJ</p>
+<p>2002 - 2005 - Executive Director, City Without Walls art gallery, Newark, NJ</p>
+<p>2001 - 2002 - Curator of Prints, Brodsky Center for Innovative Editions, New Brunswick, NJ</p>
+
+<h3>Recent Exhibitions:</h3>
+
+<h3>2015</h3>
+<p>Artist/Inventor, Flanders Gallery, Raleigh, NC</p>
+
+<h3>2014</h3>
+<p>51st Annual Juried Exhibition, Masur Museum of Art, Monroe, LA</p>
+<p>Chimera, Bradbury Gallery, Arkansas State University, Jonesboro, AR (two person exhibition)</p>
+<p>The DAM Show, Reservoir Gallery, NY, NY</p>
+<p>Home Ec, Cullis Wade Depot Art Gallery, Mississippi State University, Mississippi State, MS</p>
+
+<h3>2013</h3>
+<p>Faculty Biennial, Bradbury Gallery, Arkansas State University, Jonesboro, AR</p>
+<p>Failures, Kresge Gallery, Lyon College, Batesville, AR</p>
+
+
+<h3>Recent Awards and Publications:</h3>
+
+<h3>2014</h3>
+<p>Provost’s Faculty Development Award - “Physical Computing and the Internet of Things”</p>
+
+<p>Publication: “Embracing Failure, Challenging Art”, Number:78, Spring 2014</p>
+
+<p>Publication: “Review of Failures Exhibition”, Number:78, Spring 2014</p>
+
+<p>Publication: “Regional Update: Northeast Arkansas”, Number:80, Fall 2014</p>
+
+<h3>2013</h3>
+<p>National Endowment for the Humanities Fellow - Humanities & 3D Visualization Summer Institute, Arkansas State University & The University of Arkansas.</p>
+
+
+

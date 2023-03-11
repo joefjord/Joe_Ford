@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+/* This is a CSS comment */
+
+/* This is another way to control how your site appears on mobile devices. Some prefer it to the meta tag within the html. It doesn't hurt to do both, so we will. */
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+/* ------------------------------- */
+
+
+nav {       font-size: 2em;
+			color: black;
+			margin: 0 auto 60px auto;
+            padding-top: 17px;
+			width: 100%;
+            height: 59px;
+            background-color: #ff0055;
+}
+
+
+nav a {
+			text-decoration: none;
+			font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+			font-style: bold;
+			color: white;
+			padding: 20px 30px;	
+            float: left;
+            margin-top: -20px;
+}
+		
+nav a:hover {
+			color: white;
+            background-color: darkslategray;
+}
+		
+p {
+    font-size: 1.25em;
+    font-family: 'Arimo', sans-serif;
+    width: 75%;
+    margin: 20px auto;
+}
+		
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
+    margin: 20px auto;
+}
+
+.button-border {
+    border-right: 1px solid rgba(255,255,255,.4);
+}
+
+.button-border:hover {
+    border-right: 1px solid rgba(255,255,255,0);
+}

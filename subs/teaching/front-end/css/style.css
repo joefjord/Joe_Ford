@@ -1,0 +1,52 @@
+.dumbo {
+    background-color: rgba(0,0,0,.7);
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 250px;
+    width: 100%;
+}
+
+.dumbo h1 {
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.glyphicon-triangle-bottom {
+  padding-left: 7px;
+  font-size: .8em;
+}
+
+/* .banner {
+  width:100%;
+  max-width:100% !important;
+  height:
+} */
+
+.container h3 {padding-top: 25px;}
+
+.row-top-spacer {
+    margin-top: 25px;
+}
+
+footer {
+    height: 75px;
+    width: 100%;
+    background-color: rgba(0,0,0,.8);
+}
+
+footer a {
+    height: 15px;
+    width: 15px;
+    color: rgba(0,0,0,0);
+}
+
+footer a:visited{
+    color: rgba(0,0,0,0);
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}

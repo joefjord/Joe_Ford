@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Joe Ford</title>
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/screen-styles.css" />
+        <link rel="stylesheet" type="text/css" media="only screen and (max-width:860px)"   href="css/screen_layout_mobile-705.css">
+        <link rel="stylesheet" type="text/css" href="css/media-queries.css" />
+		<script src="js/modernizr.custom.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,100italic,300italic' rel='stylesheet' type='text/css'>
+        <!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+
+        <style>
+            #trapezoid {
+                border-bottom: 100px solid red;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+            }
+        </style>
+        
+	</head>
+	<body>
+		<div class="container container-alt">
+            
+            <header class="app-bar promote-layer">
+            <button class="menu">
+                <img class="menu-icon" src="images/menu-button-icon.png"> 
+                <img class="close-icon" src="images/close-button-icon.png">
+            </button>
+        </header>
+        
+        <nav class="navdrawer-container">
+            <ul class="promote-layer">
+                <li><a href="index.html">JOE FORD</a></li>
+                <li><a href="work.html">teaching</a></li>
+                <li><a href="tests.html">TESTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        
+        <div class="navdrawer-bg promote-layer">
+        </div>
+            
+			<header class="color-6">
+				<nav class="cross">
+				    <a href="index.html">Joe Ford</a>
+					<a href=work.html class="current">teaching</a>
+					<a href="tests.html">tests</a>
+					<a href="contact.html">contact</a>
+				</nav>
+			</header>
+            
+            <div id="container-teaching">
+            
+                
+			<div class="row">
+                <section>
+                    <div class="col-xs-12">
+                        <h1>Teaching</h1>
+                        <p>I am a professor too. I love to teach artists and designers how to do cool digital stuff. I've built this page to help you learn things, whether you are my student or not. </p>
+                    </div>
+                </section>
+            </div>
+            <section class="section-alt">    
+                <div class="row-alt">
+
+                <div class="col-xs-4">
+                    <h2>I want to learn how to:</h2>
+                </div><!--inline-block hack
+            --><form class="col-xs-8 dropdown">
+                        <select name="learn">
+                            <option selected disabled>Choose something</option>
+                            <option value="html"><a href="http://kottke.org/" target="_blank">Build cool things with html</a></option>
+                            <option value="css">Style something amazing with css</option>
+                            <option value="game">Make a game</option>
+                            <option value="advising">Graduate from ASTATE</option>
+                            <option value="be happy">Be a happier person</option>
+                            <option value="other">Do something else cool</option>
+                          </select>
+                    </form>
+
+                </div>
+            </section>
+                <div id="trapezoid"></div>
+            </div><!-- /work-container -->
+		</div><!-- /container -->
+        <!--load fancybox-->       
+        <script type="text/javascript">
+        $(document).ready(function() {
+        $(".fancybox").fancybox();
+        });
+        </script>
+        
+        <script>var navdrawerContainer = document.querySelector('.navdrawer-container');
+      var appbarElement = document.querySelector('.app-bar');
+      var darkbgElement = document.querySelector('.navdrawer-bg');
+
+      var menuBtn = document.querySelector('.menu');
+      menuBtn.addEventListener('click', function() {
+        var isOpen = navdrawerContainer.classList.contains('open');
+        if(isOpen) {
+          appbarElement.classList.remove('open');
+          navdrawerContainer.classList.remove('open');
+          darkbgElement.classList.remove('open');
+        } else {
+          appbarElement.classList.add('open');
+          navdrawerContainer.classList.add('open');
+          darkbgElement.classList.add('open');
+        }
+      }, true);
+        
+        </script>
+        
+        <script>var menuBtn = document.querySelector('.menu');
+      menuBtn.addEventListener('click', function() {
+        sampleCompleted('appbar-navdrawer-bottombar-sample.html-menuclick');
+      }, true);
+
+      var bottomBtns = document.querySelectorAll('.bottom-bar > button');
+      for(var i = 0; i < bottomBtns.length; i++) {
+        bottomBtns[i].addEventListener('click', bottomBarBtnClick, true);
+      }
+
+      function bottomBarBtnClick() {
+        sampleCompleted('appbar-navdrawer-bottombar-sample.html-bottombarbtnclick');
+      }</script>
+        
+        
+    </body>
+</html>

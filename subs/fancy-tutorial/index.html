@@ -1,0 +1,103 @@
+<!DOCTYPE html >
+<html> 
+<head>
+<link type="text/css" rel="stylesheet" href="normalize.css" />
+<link type="text/css" rel="stylesheet" href="style.css" />
+<!--[if lt IE 9]>
+        <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<title>How to use Fancybox</title>
+    <!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript"  src="fancyapps-fancyBox-18d1712/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet"  href="fancyapps-fancyBox-18d1712/source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript"  src="fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+$(".fancybox").fancybox();
+});
+</script>
+</head>
+
+<body>
+	<!--This is a comment. Comments are not displayed in the browser-->
+	<div id="header">
+    
+    </div>
+    <div id="container">
+    	<div id="intro">
+        	<img src="images/noun_project_12634.png"/><p>Fancybox is a very simple jQuery plugin that allows you to easily create really nice image galleries.</p>
+        </div>
+        <div id="step1">
+        	<h3>Step 1 | Preparing your images:</h3><img src="images/noun_project_92.png"/><p>The first thing you will need to do is save two versions of each of your portfolio images. I like to save detail croppings of gallery images. It works best if your thumbnails are all the same size. Otherwise, you end up with a pretty wonky looking gallery.</p> <p>The size of your thumbnails will depend on the width of you container div. Generally, I'll use thumbnails that are around 200 x 200 pixels. That allows 4 to sit alongside one another on a 900px container width, with some margin on either side.</p>
+<p>
+Next you'll need to prepare the full size images. I'd keep these images to a maximum of around 700px wide. Any larger and the full image might not fit on some smaller screens.</p>
+        </div>
+        
+        <div id="step2">
+        	<h3>Step 2 | Downloading and prepping the fancy box files:</h3><img src="images/noun_project_10905.png"/><p>You should go here:</p>
+
+<p><a href="http://fancyapps.com/fancybox/#license">http://fancyapps.com/fancybox/#license</a><p>
+<p>
+and click the blue button to 'Download v2.1.5'</p><img class="button" src="images/Download.png"/> <br> <p class="clear">Inside that folder you'll see a bunch of files and folders. You'll need to keep some of them and others you can trash.</p>
+<p>
+You'll want to save the folder called 'lib' and the folder called 'source'. You'll probably also want to save the 'sprite.psd' file. The rest you can trash.</p>
+<p>
+Now, rename the 'fancyapps-fancyBox-18d1712' folder to 'fancy' and move it into your root folder.</p>
+        </div>
+        
+        <div id="step3">
+        	<h3>Step 3 | Placing the jQuery & CSS links:
+</h3><img src="images/noun_project_13694.png"/><p>Between your head tags you'll need to paste the following code:</p>
+  </div>
+        
+    <div  class="html"><code>
+        	&lt;!-- Add jQuery library --&gt;<br/>&lt;script type=&quot;text/javascript&quot; src=&quot;http://code.jquery.com/jquery-latest.min.js&quot;&gt;&lt;/script&gt;<br/><br/>&lt;!-- Add mousewheel plugin (this is optional) --&gt;<br/>&lt;script type=&quot;text/javascript&quot; src=&quot;/fancybox/lib/jquery.mousewheel-3.0.6.pack.js&quot;&gt;&lt;/script&gt;<br/><br/>&lt;!-- Add fancyBox --&gt;<br/>&lt;link rel=&quot;stylesheet&quot; href=&quot;/fancybox/source/jquery.fancybox.css?v=2.1.5&quot; type=&quot;text/css&quot; media=&quot;screen&quot; /&gt;<br/>&lt;script type=&quot;text/javascript&quot; src=&quot;/fancybox/source/jquery.fancybox.pack.js?v=2.1.5&quot;&gt;&lt;/script&gt;
+        </code></div>
+        <div id="step3a"><img src="images/link.png"/><p>You'll also need to go in and relink all of the src & href properties to reference the files that you downloaded and placed into your root folder.</p></div>
+        
+        <div id="step4">
+        	<h3>Step 4 | Attach fancybox jQuery</h3>
+            <p>You'll need to paste the following code between your "head" tags:</p>
+        </div>
+        
+        <div  class="html2"><code>
+        	&lt;script type=&quot;text/javascript&quot;&gt;<br/>	$(document).ready(function() {<br/>		$(&quot;.fancybox&quot;).fancybox();<br/>	});<br/>&lt;/script&gt;
+        </code></div>
+        
+         <div id="step5">
+        	<h3>Step 5 | Create your gallery</h3>
+            <p>Inside the container that will hold your gallery you will create link elements whose href attributes will contain the path of the element you wish to open within the fancyBox. You should follow this format:</p>
+</div>
+	<div  class="html3"><code>
+        	&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;big_image_1.jpg&quot;&gt;&lt;img src=&quot;small_image_1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;<br/>&lt;a class=&quot;fancybox&quot; rel=&quot;group&quot; href=&quot;big_image_2.jpg&quot;&gt;&lt;img src=&quot;small_image_2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+        </code></div>
+        
+        <div id="step5a">
+        	<p>The href= "the path to your big image". The src= "the path to your thumbnail images".</p>
+
+<p>The example above would create a gallery with two thumbnails. The more "a" elements you add, the more images your gallery will contain.</p>
+        </div>
+          
+          <div class="fancy">
+            <div class="spacer"></div>
+            <a class="fancybox" rel="gallery"
+            href="images/1_b.jpg"><img src="images/1_s.jpg" alt=""/></a>
+            <a class="fancybox" rel="gallery" href="images/2_b.jpg"><img src="images/2_s.jpg" alt=""/></a>
+            <a class="fancybox" rel="gallery" href="images/3_b.jpg"><img src="images/3_s.jpg" alt=""/></a>
+            <a class="fancybox" rel="gallery" href="images/4_b.jpg"><img src="images/4_s.jpg" alt=""/></a>
+            
+        </div>
+           
+           <div id="conclusion">
+        	<h3>Conclusion</h3>
+            <p>Using jQuery plugins isn't really difficult once you get the hang of it. With a little practice you'll be making your websites do all kinds of crazy stuff.</p>
+</div>     
+    </div>
+</body>
+</html>

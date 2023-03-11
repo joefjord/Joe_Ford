@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+        <meta name="google-site-verification" content="x184UjRKK8v7MDDzdm0rN572WEnzZj78Xa1t2ZHmyl0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Joe Ford</title>
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/screen-styles.css" />
+        <link rel="stylesheet" type="text/css" media="only screen and (max-width:861px)"   href="css/screen_layout_mobile-705.css">
+        <link rel="stylesheet" type="text/css" href="css/media-queries.css" />
+		<script src="js/modernizr.custom.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,100italic,300italic' rel='stylesheet' type='text/css'>
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	</head>
+
+    <body>
+		<div class="container">
+            <header class="app-bar promote-layer">
+                <button class="menu">
+                    <img class="menu-icon" src="images/menu-button-icon.png">
+                    <img class="close-icon" src="images/close-button-icon.png">
+                </button>
+            </header>
+
+            <nav class="navdrawer-container">
+                <ul class="promote-layer">
+                    <li><a href="index.html">JOE FORD</a></li>
+                    <li><a href="work.html">NEW WORK</a></li>
+                    <li><a href="tests.html">TESTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="navdrawer-bg promote-layer">
+            </div>
+
+			<header class="color-6">
+				<nav class="cross">
+					<a href="index.html" class="current">Joe Ford</a>
+					<a href=work.html>new work</a>
+					<a href="tests.html">tests</a>
+					<a href="contact.html">contact</a>
+				</nav>
+			</header>
+			<section id="about">
+				<img src="images/joe.jpg"/>
+                <article id="about-content">
+                    <h3>BIO</h3>
+                    <p class="responsive-indent">hi, my name is joe ford. i am an artist and <a href="teaching.html">professor</a> of digital design at arkansas state university. my current work is a third-person, passive and slightly bemused look at the near future, surveillance and our complicated relationship with technology. the materials and techniques that i use and the aesthetic choices i make oscillate between those of traditional home-building and house-keeping and the stuff of 21st century digital culture.
+										</p>
+                </article>
+			</section>
+
+            <section id="cv">
+
+                <article id="cv-content">
+                    <h3>CV</h3>
+
+                    <h4>Education:</h4>
+
+                    <p>BFA 1997 - Arkansas State University</p>
+                    <p>Study Abroad 1997 - Radboud Universiteit Nijmegen</p>
+                    <p>MFA 2001 - University of Illinois Urbana-Champaign</p>
+
+                    <h4>Work Experience:</h4>
+
+                    <p>2012 - present - Assistant Professor of Digital Design, Arkansas State University Department of Art, Jonesboro, AR</p>
+                    <p>2010 - 2012 - Art Director, True VM, Jonesboro, AR</p>
+                    <p>2007 - 2010 - Art Director &amp; Brand Manager, Jimco Lamp and Home Decor, Bono, AR</p>
+                    <p>2005 - 2007 - Assistant Director of Grants &amp; Sponsored Programs, New Jersey City University, Jersey City, NJ</p>
+                    <p>2002 - 2005 - Executive Director, City Without Walls art gallery, Newark, NJ</p>
+                    <p>2001 - 2002 - Curator of Prints, Brodsky Center for Innovative Editions, New Brunswick, NJ</p>
+
+                    <h4>Recent Exhibitions:</h4>
+
+                    <h4>2015</h4>
+                    <p>Artist/Inventor, Flanders Gallery, Raleigh, NC</p>
+
+                    <h4>2014</h4>
+                    <p>51st Annual Juried Exhibition, Masur Museum of Art, Monroe, LA</p>
+                    <p>Chimera, Bradbury Gallery, Arkansas State University, Jonesboro, AR (two person exhibition)</p>
+                    <p>The DAM Show, Reservoir Gallery, NY, NY</p>
+                    <p>Home Ec, Cullis Wade Depot Art Gallery, Mississippi State University, Mississippi State, MS</p>
+
+                    <h4>2013</h4>
+                    <p>Faculty Biennial, Bradbury Gallery, Arkansas State University, Jonesboro, AR</p>
+                    <p>Failures, Kresge Gallery, Lyon College, Batesville, AR</p>
+
+
+                    <h4>Recent Awards and Publications:</h4>
+
+                    <h4>2014</h4>
+                    <p>Provost’s Faculty Development Award - “Physical Computing and the Internet of Things”</p>
+
+                    <p>Publication: “Embracing Failure, Challenging Art”, Number:78, Spring 2014</p>
+
+                    <p>Publication: “Review of Failures Exhibition”, Number:78, Spring 2014</p>
+
+                    <p>Publication: “Regional Update: Northeast Arkansas”, Number:80, Fall 2014</p>
+
+                    <h4>2013</h4>
+                    <p>National Endowment for the Humanities Fellow - Humanities &amp; 3D Visualization Summer Institute, Arkansas State University &amp; The University of Arkansas.</p>
+                </article>
+			</section>
+
+		</div><!-- /container -->
+
+        <script>var navdrawerContainer = document.querySelector('.navdrawer-container');
+      var appbarElement = document.querySelector('.app-bar');
+      var darkbgElement = document.querySelector('.navdrawer-bg');
+
+      var menuBtn = document.querySelector('.menu');
+      menuBtn.addEventListener('click', function() {
+        var isOpen = navdrawerContainer.classList.contains('open');
+        if(isOpen) {
+          appbarElement.classList.remove('open');
+          navdrawerContainer.classList.remove('open');
+          darkbgElement.classList.remove('open');
+        } else {
+          appbarElement.classList.add('open');
+          navdrawerContainer.classList.add('open');
+          darkbgElement.classList.add('open');
+        }
+      }, true);
+
+        </script>
+
+        <script>var menuBtn = document.querySelector('.menu');
+      menuBtn.addEventListener('click', function() {
+        sampleCompleted('appbar-navdrawer-bottombar-sample.html-menuclick');
+      }, true);
+
+      var bottomBtns = document.querySelectorAll('.bottom-bar > button');
+      for(var i = 0; i < bottomBtns.length; i++) {
+        bottomBtns[i].addEventListener('click', bottomBarBtnClick, true);
+      }
+
+      function bottomBarBtnClick() {
+        sampleCompleted('appbar-navdrawer-bottombar-sample.html-bottombarbtnclick');
+      }</script>
+
+
+    </body>
+</html>

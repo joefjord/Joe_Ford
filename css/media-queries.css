@@ -1,0 +1,419 @@
+@media only screen and (max-width:1080px) {
+    
+    .work-info {
+        width: 55%;
+        
+    }
+    
+    .pillow article {
+    width: 100%;
+/*    margin: 0 auto;*/
+    text-align: left;
+    padding-bottom: 25px;
+    
+}
+    
+    .pillow article h3 {
+        width: 45%;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .pillow article p {
+        width: 64%;
+        padding-right: 35px;
+        padding-left: 25px;
+    }
+    
+    .pillow article div {
+        margin-right: 25px;
+    }
+    
+}
+
+@media only screen and (max-width:960px) {
+    
+    .pillow article p {
+        width: 60%;
+        
+    }
+    
+    #tests {
+        height: 430px;
+    }
+    
+}
+
+@media only screen and (max-width:920px) {
+    
+    .pillow article p {
+        width: 55%;
+        
+    }
+
+}
+
+@media only screen and (max-width:866px) {
+    
+    .pillow article div {
+        float: none;
+    }
+    
+    .work-info {
+        width: 100%;
+        
+    }
+    
+    .pillow article {
+    width: 100%;
+/*    margin: 0 auto;*/
+    text-align: left;
+    padding-bottom: 25px;
+    
+}
+    
+    .pillow article h3 {
+        width: 100%;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .pillow article p {
+        width: 100%;
+        padding-right: 35px;
+        padding-left: 25px;
+    }
+    
+    #work {
+        margin-top: 45%;
+        padding-top: 10px;
+        height: auto;
+        background-color: white;
+    }
+    
+    #work2 {
+        height: auto;
+        padding-top: 10px;
+        width: 100%;
+    }
+    
+    #work3 {
+        height: auto;
+        padding-top: 10px;
+    }
+    
+    #work4 {
+        height: auto;
+        padding-top: 10px;
+        width: 100%;
+    }
+    
+    #work5 {
+        height: auto;
+        padding-top: 10px;
+    }
+    
+    #work6 {
+        height: auto;
+        padding-top: 10px;
+        width: 100%;
+    }
+    
+    #work7 {
+        height: auto;
+        padding-top: 10px;
+    }
+    
+    #tests {
+/*        margin-top: 45%;*/
+        padding-top: 10px;
+        height: auto;
+        background-color: white;
+        height: 600px;
+    }
+}
+
+
+@media only screen and (max-width:840px) {
+    #tests {
+        height: 650px;
+    }
+}
+
+@media only screen and (max-width:770px) {
+
+	#about {
+		width: 100%;
+	}
+
+	#cv {
+		width: 100%;
+		margin: 0 auto;
+		right: 0;
+		position: relative;
+		left: 
+		/*	right: 0;*/
+	}
+
+	#about-content {
+		padding-right: 25px;
+		width: 60%;
+	}
+
+	#cv-content p {
+		width: 100%;
+		text-align: left;
+		margin-left: 30px;
+	}
+
+	#cv-content {
+		right: -45px;
+		width: 100%;
+		left: -45px;
+		top: -180px;
+		margin-right: 0;
+		position: relative;
+	}
+
+	#cv-content h3 {
+	}
+    
+    #tests {
+        height: 600px;
+    }
+
+}
+@media only screen and (max-width:739px) {
+
+	#about-content h3 {
+		margin-top: 12%;
+	}
+
+	#about-content {
+		padding-right: 40px;
+	}
+    
+    #tests {
+        height: 650px;
+    }
+
+}
+@media only screen and (max-width:675px) {
+
+	#about-content {
+		padding-right: 50px;
+		width: 58%;
+		top: 5px;
+	}
+
+    #tests {
+        height: 660px;
+    }
+    
+}
+@media only screen and (max-width:615px) {
+
+	#about-content {
+		padding-right: 60px;
+		top: -25px;
+		width: 55%;
+	}
+
+	#about-content p {
+		font-size: 0.86em;
+}
+
+    #tests {
+        height: 690px;
+    }
+    
+}
+@media only screen and (max-width:580px) {
+
+    body {background-color: rgb(255, 255, 255);}
+    
+    #about {
+        top: 63px;
+        background: #e4e4e4 url("http://joeford.me/images/joe.jpg") no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+    
+    #about p {}
+    
+    .responsive-indent {
+        width: 100%;
+    }
+    
+
+    
+	#about img {
+        display: none;
+		top: -110px;
+		left: 0;
+		width: 100%;
+		/*	height: 300px;*/
+		height: auto;
+        max-height: 455px;
+		/*	left: 15%;*/
+	}
+
+	#about-content {
+		width: 100%;
+		left: 0;
+		background-color: rgba(255, 255, 255, 0.590196);
+		top: -45px;
+		height: 390px;
+		padding-top: 195px;
+	}
+
+	#cv-content {
+		top: -200px;
+	}
+
+	#cv {
+		top: 510px;
+		position: absolute;
+		background-color: rgb(255, 255, 255);
+        
+	}
+
+	#about-content h3 {
+        width: 100%;
+		margin-top: 25px;
+	}
+
+	#about-content p {
+/*        width: 100%;*/
+        position: absolute;
+		left: 0;
+        right: 0px;
+        background-color: rgba(255, 255, 255, 0.790196);
+		line-height: 1.6em;
+        padding: 20px 30px 30px 30px;
+		
+	}
+
+   .work-info {
+        width: 100%;
+        
+    }    
+    
+    #tests {
+        height: 750px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    #cv {
+        top: 540px;
+    }
+    
+    #cv-content {
+		top: -180px;
+	}
+
+    #work-container {
+        top: 1px;
+        width: 100%;
+        background: white url("/images/close-button-icon.png") no-repeat scroll center top;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    
+    #work {
+        margin-top: 52px;
+        padding-top: 10px;
+        height: auto;
+        background-color: white;
+    }
+    
+    #tests {
+        margin-top: 36px;
+        padding-top: 10px;
+        height: 700px;
+        background-color: white;
+    }
+    
+    .pillow article div {
+        float: none;
+        margin-left: -25px;
+    }
+    
+    .work-info {
+        width: 100%;
+    }
+    
+    .work-info h1 {
+        font-size: 1.7em;
+        width: 100%;
+    }
+    
+    .pillow article {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 25px;
+    
+}
+    
+    .pillow article h3 {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .pillow article p {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+
+@media only screen and (max-width:406px) {
+    #cv {
+        top: 560px;
+    }
+    
+    #cv-content {
+		top: -180px;
+	}
+
+   .work-info {
+        width: 100%;
+        
+    }    
+    
+}
+
+@media only screen and (max-width:375px) {
+    
+    #cv {
+        top: 575px;
+    }
+
+    .pillow article div {
+		margin: 0 auto;
+	}
+    
+   .work-info {
+        width: 100%;
+        
+    }
+    
+    #work {
+        margin-top: 52px;
+        padding-top: 10px;
+        height: auto;
+        background-color: white;
+    }
+
+    #tests {
+        height: 900px;
+    }
+    
+}

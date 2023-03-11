@@ -1,0 +1,338 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* This is the full cover background */
+html { 
+  background: url(images/505Union_PanoramaBGa.jpg) no-repeat left top fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Start orange Call To Action bar */
+#cta {
+	width:100%;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #F1630B),
+	color-stop(1, #F0331A)
+	);
+background-image: -o-linear-gradient(bottom, #F1630B 0%, #F0331A 100%);
+background-image: -moz-linear-gradient(bottom, #F1630B 0%, #F0331A 100%);
+background-image: -webkit-linear-gradient(bottom, #F1630B 0%, #F0331A 100%);
+background-image: -ms-linear-gradient(bottom, #F1630B 0%, #F0331A 100%);
+background-image: linear-gradient(to bottom, #F1630B 0%, #F0331A 100%);
+	-webkit-box-shadow:  1px 1px 6px 1px rgba(0, 0, 0, .2);
+        
+        box-shadow:  1px 1px 6px 1px rgba(0, 0, 0, .2);
+		
+	z-index: 100;
+	}
+
+#cta p {
+	color:#FFF; 
+	float:right;
+	height: 10px;
+	margin-top:22px;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	margin-right:20px;
+	}
+
+#submit { border: none;
+			height: 32px;
+			margin-top:10px;
+			float: left;
+			background-color: rgba(255, 255, 255, 0.3);
+			color: #FFF;
+}
+
+#social {
+	list-style-type: none;
+	}
+	
+#social li {
+	float:left;
+	margin-right: 12px;
+	}
+
+/* CSS sprites - not working */	
+.social-sprite-tumblr {
+	margin-top: -2px;
+	height: 30px;
+	width: 30px;
+	background: url(images/tumblr-sprite.png) no-repeat right 0;
+	}
+	
+.social-sprite-facebook {
+	margin-top: -1px;
+	height: 30px;
+	width: 30px;
+	background-image: url(images/FB-sprite.png);
+	}
+	
+.social-sprite-instagram {
+	margin-top: 1px;
+	height: 30px;
+	width: 30px;
+	background-image: url(images/instagram-sprite.png);
+	}
+
+a.social-sprite-tumblr {
+	
+	 }
+	
+a.social-sprite-tumblr:hover {
+	border: 1px solid black;
+	background-position: right 30px;
+	}
+	
+a.social-sprite-facebook:hover {
+	
+	}
+	
+a.social-sprite-instagram:hover {
+	
+	}
+
+/* Text navigation */
+nav {
+	position: fixed;
+	top:55px;
+	font-family: Helvetica;
+	font-size: 1.2em;
+	right: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.95);
+	height: 75px;
+	width: 100%;
+	z-index: 2;
+	
+	}
+	
+nav ul {
+	list-style-type: none;
+	float: right;
+	margin-right: 40px;
+	}
+	
+nav ul li{
+	float: left;
+	padding-left: 20px;
+	
+	}
+	
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #ccc;
+	}
+	
+nav ul li a:hover{	
+	color: #F1630B;
+	}
+	
+nav ul li a:active {color:#F1630B;}
+
+/* Main container */
+
+#container { 
+			position: absolute;
+			right: 0;
+			left: 0;
+			height: 800px;
+			background-color: #FFF;
+			z-index: 0;
+	}
+
+/* Intro Area */
+
+#intro {
+	margin: 0 auto;
+	background-color: #fff;
+	height: 800px;
+	width: 980px;
+	}
+	
+#logo {
+	width: 503px;
+	height: 466px;
+	background-image:url(images/505UnionLogoSplat.png);
+	position: absolute;
+	margin: 0 auto;
+	top: 168px;
+	left: 5%;
+	right: 900px;
+	z-index: 1;
+	transform:rotate(-6.35deg);
+	-ms-transform:rotate(-6.35deg); /* IE 9 */
+	-moz-transform:rotate(-6.35deg); /* Firefox */
+	-webkit-transform:rotate(-6.35deg); /* Safari and Chrome */
+	-o-transform:rotate(-6.35deg); /* Opera */
+}
+
+#tagline {
+	margin-top: 260px;
+	height: 300px;
+	width: 495px;
+	font-family: helvetica, sans-serif;
+	font-size: 5em;
+	font-weight: bold;
+	line-height: 0.98;
+	float: right;
+	}
+
+/* About Area */
+#about {
+	margin: 0 auto;
+	height: 1000px;
+	width: 100%;
+	background-color: rgba(250, 50, 0, 0.5);
+	}
+	
+#about-label {
+	width: 500px;
+	height: 80px;
+	position: absolute;
+	left: 15%;
+	top: 945px;
+	background-color: rgba(255, 255, 255, 0.85);
+	z-index: 1000;
+	}
+	
+#about-label p {
+	font-family: helvetica, sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 18px;
+	}
+
+#about-content {
+	width: 900px;
+	height: 600px;
+	position: absolute;
+	left: 15%;
+	top: 1040px;
+	background-color: rgba(255, 255, 255, 0.85);
+	z-index: 1000;
+	}
+
+/* Current Exhibitions Area */
+
+#current {
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 0.65);
+	height: 915px;
+	width: 100%;
+	}
+	
+#current-label {
+	width: 459px;
+	height: 80px;
+	position: absolute;
+	left: 15%;
+	top: 1945px;
+	background-color: rgba(255, 255, 255, 0.85);
+	z-index: 1000;
+	}
+	
+#current-label p {
+	font-family: helvetica, sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 18px;
+	}
+
+#current-content {
+	width: 900px;
+	height: 600px;
+	position: absolute;
+	left: 15%;
+	top: 2045px;
+	background-color: rgba(255, 255, 255, 0.85);
+	z-index: 1000;
+	}
+
+/* Archives Area */
+
+#archives {
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 0.65);
+	height: 920px;
+	width: 100%;
+	}
+	
+#archives-label {
+	width: 250px;
+	height: 80px;
+	position: absolute;
+	left: 15%;
+	top: 2860px;
+	background-color: rgba(255, 255, 255, 0.85);
+	z-index: 1000;
+	}
+	
+#archives-label p {
+	font-family: helvetica, sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 18px;
+	}
+
+#archives-content {
+	width: 900px;
+	height: 600px;
+	position: absolute;
+	left: 15%;
+	top: 2960px;
+	background-color: rgba(255, 255, 255, 0.85);
+	z-index: 1000;
+	}
+/* Contact Us Area */
+
+#contact {
+	margin: 0 auto;
+	background-color: rgba(0,0,0, 0.6);
+	height: 800px;
+	width: 100%;
+	}
+	
+#contact-label {
+	width: 300px;
+	height: 80px;
+	position: absolute;
+	left: 15%;
+	top: 3810px;
+	background-color: rgba(0, 0, 0, 0.65);
+	z-index: 1000;
+	}
+	
+#contact-label p {
+	font-family: helvetica, sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 18px;
+	color: #ddd;
+	}
+
+#contact-content {
+	width: 900px;
+	height: 400px;
+	position: absolute;
+	left: 15%;
+	top: 3910px;
+	background-color: rgba(0, 0, 0, 0.65);
+	z-index: 1000;
+	}

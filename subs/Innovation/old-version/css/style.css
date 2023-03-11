@@ -1,0 +1,59 @@
+* {
+    margin: ;
+    padding: 0;
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    background-color: rgba(0,0,0,.1);
+    background-image: url(/images/p5.png);
+    margin-bottom: 40px;
+}
+
+header h1{
+    margin: 0 auto;
+    padding-top: 65px;
+    width: 90%;
+    color: darkred;
+    font-weight: 100;
+    font-size: 2.5em;
+    
+}
+
+.main {
+    margin: 0 auto 50px auto;
+    width: 90%;   
+}
+
+.main h3{
+    color: dimgray;
+    font-weight: 100;
+    font-size: 1.5em;
+    margin-bottom: 1px;
+}
+
+.description {
+    width: 85%;
+    margin-top:15px;
+    margin-bottom: 20px;
+    padding: 20px 10px 20px 20px;
+    background-color: rgba(134, 19, 45, 0.11);
+    color: darkred;
+    font-size: .9em;
+}
+
+.weekAlign {
+    margin-left: 70px;
+}
+
+.weekAlign2 {
+    margin-left: 77px;
+}
+
+
+article div p strong {
+    padding-right:20px;
+    font-size: .9em;
+}
+

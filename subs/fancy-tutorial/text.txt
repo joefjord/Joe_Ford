@@ -1,0 +1,46 @@
+Fancybox is a very simple jQuery plugin that allows you to easily create really nice image galleries.
+
+Step 1 | Preparing your images:
+
+The first thing you will need to do is save two versions of each of your portfolio images. I like to save detail croppings of gallery images. It works best if your thumbnails are all the same size. Otherwise, you end up with a pretty wonky looking gallery. The size of your thumbnails will depend on the width of you container div. Generally, I'll use thumbnails that are around 200 x 200 pixels. That allows 4 to sit alongside one another on a 900px container width, with some margin on either side.
+
+Next you'll need to prepare the full size images. I'd keep these images to a maximum of around 700px wide. Any larger and the full image might not fit on some smaller screens.
+
+Step 2 | Downloading & prepping the fancy box files:
+
+You should go here:
+
+http://fancyapps.com/fancybox/#license
+
+and click the blue button to 'Download v2.1.5'
+
+Inside that folder you'll see a bunch of files & folders. You'll need to keep some of them & others you can trash.
+
+You'll want to save the folder called 'lib' and the folder called 'source'. You'll probably also want to save the 'sprite.psd' file. The rest you can trash.
+
+Now, rename the 'fancyapps-fancyBox-18d1712' folder to 'fancy' and move it into your root folder.
+
+Step 3 | Placing the jQuery & CSS links:
+
+Between your <head></head> tags you'll need to paste the following code:
+
+--------
+
+You'll also need to go in and relink all of the src & href properties to reference the files that you downloaded and placed into your root folder.
+
+Step 4 | Attach fancybox jQuery
+
+You'll need to paste the following code between your <head></head> tags:
+
+-----------
+
+Step 5 | Create your gallery
+
+Inside the container that will hold your gallery you will create link elements whose href attributes will contain the path of the element you wish to open within the fancyBox. You should follow this format:
+
+ 
+
+Conclusion
+
+Using jQuery plugins isn't really difficult once you get the hang of it. With a little practice you'll be making your websites do all kinds of crazy stuff.
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Joe Ford</title>
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/screen-styles.css" />
+        
+        <link rel="stylesheet" type="text/css" href="css/media-queries.css" />
+        <link rel="stylesheet" type="text/css" media="only screen and (max-width:860px)"   href="css/screen_layout_mobile-705.css">
+		<script src="js/modernizr.custom.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,100italic,300italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/contactform.css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.js"></script>
+        <script type="text/javascript" src="js/jquery.extend.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.js"></script>
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+        <script src="js/sketch.js"></script>   
+	</head>
+	<body>
+        
+
+        
+		<div class="container">
+            
+            <header class="app-bar promote-layer">
+            <button class="menu">
+                <img class="menu-icon" src="images/menu-button-icon.png"> 
+                <img class="close-icon" src="images/close-button-icon.png">
+            </button>
+        </header>
+        
+        <nav class="navdrawer-container">
+            <ul class="promote-layer">
+                <li><a href="index.html">JOE FORD</a></li>
+                <li><a href="work.html">NEW WORK</a></li>
+                <li><a href="tests.html">TESTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        
+        <div class="navdrawer-bg promote-layer">
+        </div>
+            
+			<header class="color-6">
+				<nav class="cross">
+					<a href="index.html">Joe Ford</a>
+					<a href=work.html>new work</a>
+					<a href="tests.html" class="current">tests</a>
+					<a href="contact.html">contact</a>
+				</nav>
+			</header>
+			
+            
+                <section id="tests">
+                    
+                
+                </section>
+            
+		</div><!-- /container -->
+        
+        
+	
+        <script>var navdrawerContainer = document.querySelector('.navdrawer-container');
+      var appbarElement = document.querySelector('.app-bar');
+      var darkbgElement = document.querySelector('.navdrawer-bg');
+
+      var menuBtn = document.querySelector('.menu');
+      menuBtn.addEventListener('click', function() {
+        var isOpen = navdrawerContainer.classList.contains('open');
+        if(isOpen) {
+          appbarElement.classList.remove('open');
+          navdrawerContainer.classList.remove('open');
+          darkbgElement.classList.remove('open');
+        } else {
+          appbarElement.classList.add('open');
+          navdrawerContainer.classList.add('open');
+          darkbgElement.classList.add('open');
+        }
+      }, true);
+        
+        </script>
+        
+        <script>var menuBtn = document.querySelector('.menu');
+      menuBtn.addEventListener('click', function() {
+        sampleCompleted('appbar-navdrawer-bottombar-sample.html-menuclick');
+      }, true);
+
+      var bottomBtns = document.querySelectorAll('.bottom-bar > button');
+      for(var i = 0; i < bottomBtns.length; i++) {
+        bottomBtns[i].addEventListener('click', bottomBarBtnClick, true);
+      }
+
+      function bottomBarBtnClick() {
+        sampleCompleted('appbar-navdrawer-bottombar-sample.html-bottombarbtnclick');
+      }</script>
+        
+        
+    </body>
+</html>
