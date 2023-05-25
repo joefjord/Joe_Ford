@@ -4,6 +4,11 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<title>Joe Ford</title>
+        <link type="text/css" rel="stylesheet" href="lightgallery/css/lightgallery.css" />
+
+        <!-- lightgallery plugins -->
+        <link type="text/css" rel="stylesheet" href="lightgallery/css/lg-zoom.css" />
+        <link type="text/css" rel="stylesheet" href="lightgallery/css/lg-thumbnail.css" />
 		<link rel="shortcut icon" href="/images/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/screen-styles.css" />
@@ -235,6 +240,11 @@ I imagined a social media frenzy of disaffected suburbanites growing bored of th
                 
 			</section>
 <!-- Testing out new image gallery system -->
+<script src="lightgallery/lightgallery.umd.js"></script>
+
+    <!-- lightgallery plugins -->
+    <script src="lightgallery/plugins/lg-thumbnail.umd.js"></script>
+    <script src="lightgallery/plugins/lg-zoom.umd.js"></script>
 <script type="text/javascript">
     const $gallery1 = document.getElementById("gallery-1");
 const gallery1 = window.lightGallery($gallery1, {
@@ -396,7 +406,7 @@ $gallery3.addEventListener("click", () => {
                         <div>
                             <div class="gallery" id="gallery-1">
                                 <img src=images/compression-thumb.jpg />
-                                <p>Group 1</p>
+                                
                               </div>
                         </div>
                         <h3>
