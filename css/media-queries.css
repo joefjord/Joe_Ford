@@ -142,41 +142,92 @@
 
 @media only screen and (max-width:770px) {
 
-	#about {
+	.container > section {
+        position: static;
+        /* padding: 15px; */
+        text-align: center;
+    }
+    
+    #about {
+        position: static;
+        /* margin: 60px, 20px, 20px, 20px; */
+        padding: 60px, 20px, 20px, 20px;
 		width: 100%;
+        max-width: 750px;
 	}
+
+    #about img {
+        display: inline-block;
+        position: static;
+        /* margin: 50px, 10px, 10px, 10px; */
+        width: 250px;
+        height: 250px;
+        padding-right: 0;
+    }
+
+    #about-content {
+        position: static;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    #about-content p {
+        position: static;
+        width: 100%;
+        padding-right: 0;
+    }
 
 	#cv {
 		width: 100%;
-		margin: 0 auto;
-		right: 0;
-		position: relative;
-		left: 
-		/*	right: 0;*/
+		margin: 25px, 0, 0, 0;
+        padding: 20px 0 20px 50px;
+        height: auto;
+    box-sizing: content-box;
+    max-height: 12250px;
 	}
 
-	#about-content {
-		padding-right: 25px;
-		width: 60%;
+    #cv-content {
+        width: 100%;
+		position: relative;
+        
 	}
+
+    #cv-content h3 {
+        width: 100%;
+        max-width: 90%;
+        text-align: left;
+    }
+
+    #cv-content h4 {
+        width: 100%;
+        max-width: 90%;
+        text-align: left;
+    }
 
 	#cv-content p {
 		width: 100%;
+        max-width: 90%;
 		text-align: left;
-		margin-left: 30px;
+		
 	}
 
-	#cv-content {
-		right: -45px;
+    #cv-content ul {
 		width: 100%;
-		left: -45px;
-		top: -180px;
-		margin-right: 0;
-		position: relative;
+        max-width: 90%;
+		text-align: left;
+		
 	}
 
-	#cv-content h3 {
+    #cv-content ul li{
+        width: 100%;
+        max-width: 90%;
+		text-align: left;
+		
 	}
+
+	
+
+
     
     #tests {
         height: 600px;
@@ -185,13 +236,13 @@
 }
 @media only screen and (max-width:739px) {
 
-	#about-content h3 {
+	/* #about-content h3 {
 		margin-top: 12%;
-	}
+	} */
 
-	#about-content {
+	/* #about-content {
 		padding-right: 40px;
-	}
+	} */
     
     #tests {
         height: 650px;
@@ -200,11 +251,11 @@
 }
 @media only screen and (max-width:675px) {
 
-	#about-content {
+	/* #about-content {
 		padding-right: 50px;
 		width: 58%;
 		top: 5px;
-	}
+	} */
 
     #tests {
         height: 660px;
@@ -213,15 +264,15 @@
 }
 @media only screen and (max-width:615px) {
 
-	#about-content {
+	/* #about-content {
 		padding-right: 60px;
 		top: -25px;
 		width: 55%;
-	}
+	} */
 
-	#about-content p {
+	/* #about-content p {
 		font-size: 0.86em;
-}
+} */
 
     #tests {
         height: 690px;
@@ -232,16 +283,15 @@
 
     body {background-color: rgb(255, 255, 255);}
     
-    #about {
+    /* #about {
         top: 63px;
         background: #e4e4e4 url("http://joeford.me/images/joe.jpg") no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    }
+    } */
     
-    #about p {}
     
     .responsive-indent {
         width: 100%;
@@ -249,44 +299,42 @@
     
 
     
-	#about img {
+	/* #about img {
         display: none;
 		top: -110px;
 		left: 0;
 		width: 100%;
-		/*	height: 300px;*/
 		height: auto;
         max-height: 455px;
-		/*	left: 15%;*/
-	}
+		
+	} */
 
-	#about-content {
+	/* #about-content {
 		width: 100%;
 		left: 0;
 		background-color: rgba(255, 255, 255, 0.590196);
 		top: -45px;
 		height: 390px;
 		padding-top: 195px;
-	}
+	} */
 
-	#cv-content {
+	/* #cv-content {
 		top: -200px;
-	}
+	} */
 
-	#cv {
+	/* #cv {
 		top: 510px;
 		position: absolute;
 		background-color: rgb(255, 255, 255);
         
-	}
+	} */
 
-	#about-content h3 {
+	/* #about-content h3 {
         width: 100%;
 		margin-top: 25px;
-	}
+	} */
 
-	#about-content p {
-/*        width: 100%;*/
+	/* #about-content p {
         position: absolute;
 		left: 0;
         right: 0px;
@@ -294,7 +342,7 @@
 		line-height: 1.6em;
         padding: 20px 30px 30px 30px;
 		
-	}
+	} */
 
    .work-info {
         width: 100%;
@@ -311,9 +359,9 @@
         top: 540px;
     }
     
-    #cv-content {
+    /* #cv-content {
 		top: -180px;
-	}
+	} */
 
     #work-container {
         top: 1px;
@@ -379,9 +427,9 @@
         top: 560px;
     }
     
-    #cv-content {
+    /* #cv-content {
 		top: -180px;
-	}
+	} */
 
    .work-info {
         width: 100%;
@@ -392,8 +440,39 @@
 
 @media only screen and (max-width:375px) {
     
+    /* #about {
+        position: relative;
+        width: 100%;
+        max-width: 360px;
+        text-align: left;
+    } */
+    
+    /* #about img {
+        position: absolute;
+        top: 1px;
+        left: 3px;
+        height: 100px;
+        width: 100px;
+    } */
+    
+    /* #about-content {
+        position: absolute;
+        width: 100%;
+        max-width: 360px;
+        left: 1px;
+        height: 675px;
+        background-color: rgba(255, 255, 255, 1);
+    }  */
+    
     #cv {
-        top: 575px;
+        width: 100%;
+        max-width: 365px;
+    }
+
+    #cv-content {
+        width: 100%;
+        max-width: 365px;
+        height: auto;
     }
 
     .pillow article div {

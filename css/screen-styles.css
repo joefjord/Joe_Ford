@@ -38,39 +38,41 @@ nav a:focus {
 }
 
 #about {
-    position: relative;
-    width: 735px;
-	height: 320px;
+    /* position: relative; */
+    width: 95%;
+    max-width: 735px;
+	margin-top: 90px;
 	top: 110px;
     /*margin: 110px auto 0 auto;*/
 	text-align: left;
 }
 
 #about img {
-	position: absolute;
+	/* position: absolute; */
 	top: 10px;
-	left: 3px;
+	margin-left: 18px;
 	height: 300px;
 	width: 300px;
 }
 
 #about-content {
-	position: absolute;
-	left: 303px;
-	top: 10px;
-	width: 60%;
-	padding-left: 25px;
-	height: 300px;
-	background-color: none;
+	/* position: absolute; */
+	/* left: 303px; */
+	/* top: 320px; */
+	width: 100%;
+	padding: 20px;
+    /* left: 0px; */
+	/* height: 650px; */
+	background-color: rgba(255, 255, 255, 1);
 } 
 
 #about-content h3 {
     font-family: 'Lato', sans-serif;
-    font-size: 1.4em;
+    font-size: 1em;
     font-style: italic;
     font-weight: 400; 
     text-align: left;
-    margin-top: 22%;
+    /* margin-top: 8%; */
 }
 
 #about-content p {
@@ -78,23 +80,28 @@ nav a:focus {
     line-height: 1.6em;
     text-align: left;
     font-weight: 300;
-    width: 100%;
+    /* width: 100%; */
 }
 
 #cv {
 	text-align:left;
     background-color: rgba(0, 0, 0, .1);
-    top: 140px;
+    /* top: 555px; */
     padding-right: 10px;
+    height: auto;
+    box-sizing: content-box;
+    width: 95%;
+    max-width: 735px;
+    /* max-height: 2250px; */
 	}
 
 #cv-content {
     height: auto;
-    width: 735px;
-    position: relative;
+    /* width: 735px; */
+    /* position: relative; */
     top: -180px;
     left: -45px;
-    padding-bottom: 25px;
+    padding: 20px;
     
 } 
 
@@ -110,7 +117,7 @@ nav a:focus {
     font-style: italic;
     font-weight: 400; 
     text-align: left;
-    padding-top: 15px;
+    /* padding-top: 15px; */
 }
 
 #cv-content h4 {
@@ -125,10 +132,34 @@ nav a:focus {
     font-size: .9em;
     line-height: 1.6em;
     margin-left: 30px;
-    width: 700px;
-    max-width: 690px;
+    /* width: 700px;
+    max-width: 690px; */
+    text-align: left;
+    font-weight: 400;
+}
+
+#cv-content ul {
+    font-size: .9em;
+    line-height: 1.6em;
+    margin-left: 30px;
+    /* width: 700px;
+    max-width: 690px; */
     text-align: left;
     font-weight: 300;
+    list-style-position: outside;
+    text-indent: -.5em;
+}
+
+#cv-content li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#cv-content li:before {
+    content:"·";
+    font-size:2em;
+    vertical-align: -3px;
+    line-height:10px;
 }
 
 
@@ -158,7 +189,7 @@ nav a:focus {
 
 .container > section {
 	margin: 0 auto;
-	padding: 10em 3em;
+	/* padding: 10em 3em; */
 	text-align: center;
 }
 
@@ -378,7 +409,7 @@ nav a:focus {
 
 #work6 {
     position: relative;
-    height: 470px;
+    height: 515px;
     padding-top: 50px;
     background-color: #f4f4f4;
 /*
@@ -408,11 +439,12 @@ nav a:focus {
 }
 
 #cv {
-    position: relative;
+    /* position: relative; */
 /*    background-color: aqua;*/
-    width: 735px;
-    height: 1420px;
-    
+    max-width: 735px;
+    width: 100%;
+    height: auto;
+    bottom: 1px;
 }
 
 div {
@@ -438,9 +470,15 @@ header {
 }
 
 #inner-soc a {
-    margin-top: 6px;
-    height: 60px !important;
-    width: 60px !important;
+    margin-top: 16px;
+    height: 25px !important;
+    width: 25px !important;
+}
+
+#inner-soc a:hover {
+    margin-top: 16px;
+    height: 25px !important;
+    width: 25px !important;
 }
 
 #inner-soc img{
@@ -450,38 +488,41 @@ header {
     width: 60px;
 }
 
-#fb {
+#linkd {
     position: absolute;
     margin-left: 0;
-    height: 60px !important;
-    width: 60px;
-    background: #f4f4f4 url("http://joeford.me/images/social/fb-hover.gif") no-repeat center top;
+    
+    height: 25px !important;
+    width: 25px;
+    background: #f4f4f4 url("http://www.joeford.me/images/linkedin-in.png") no-repeat center top;
     background-size: cover;
 }
 
-#fb:hover {
+#linkd:hover {
     position: absolute;
     margin-left: 0;
-    height: 60px !important;
-    width: 60px;
-    background: url("http://joeford.me/images/social/fb.gif") no-repeat center top;
+    height: 30px !important;
+    width: 30px;
+    background: url("http://www.joeford.me/images/linkedin-in_hover.png") no-repeat center top;
     background-size: cover;
 }
 
 #insta {
     position: absolute;
-    height: 60px !important;
-    width: 60px;
+    top: 3px;
+    height: 40px !important;
+    width: 40px;
 	margin-left: 70px;
-    background: url("http://joeford.me/images/social/insta-hover.gif") no-repeat center top;
+    background: url("http://www.joeford.me/images/instagram.png") no-repeat center top;
     background-size: cover;
 }
 
 #insta:hover {
     position: absolute;
-    height: 60px !important;
-    width: 60px;
-    background: url("http://joeford.me/images/social/instagram.gif") no-repeat center top;
+    top: 3px;
+    height: 40px !important;
+    width: 40px;
+    background: url("http://www.joeford.me/images/instagram_hover.png") no-repeat center top;
     background-size: cover;
 }
 
