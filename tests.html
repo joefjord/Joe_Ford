@@ -275,25 +275,41 @@ $(".fancybox").fancybox();
         
         
 	
-        <script>var navdrawerContainer = document.querySelector('.navdrawer-container');
+    <script>
+      var navdrawerContainer = document.querySelector('.navdrawer-container');
       var appbarElement = document.querySelector('.app-bar');
       var darkbgElement = document.querySelector('.navdrawer-bg');
-
+    
       var menuBtn = document.querySelector('.menu');
       menuBtn.addEventListener('click', function() {
         var isOpen = navdrawerContainer.classList.contains('open');
-        if(isOpen) {
-          appbarElement.classList.remove('open');
-          navdrawerContainer.classList.remove('open');
-          darkbgElement.classList.remove('open');
+        if (isOpen) {
+          closeMenu();
         } else {
-          appbarElement.classList.add('open');
-          navdrawerContainer.classList.add('open');
-          darkbgElement.classList.add('open');
+          openMenu();
         }
       }, true);
-        
-        </script>
+    
+      // Event listener for links in the slide-out menu
+      var menuLinks = document.querySelectorAll('.navdrawer-container a');
+      for (var i = 0; i < menuLinks.length; i++) {
+        menuLinks[i].addEventListener('click', function() {
+          closeMenu();
+        });
+      }
+    
+      function openMenu() {
+        appbarElement.classList.add('open');
+        navdrawerContainer.classList.add('open');
+        darkbgElement.classList.add('open');
+      }
+    
+      function closeMenu() {
+        appbarElement.classList.remove('open');
+        navdrawerContainer.classList.remove('open');
+        darkbgElement.classList.remove('open');
+      }
+    </script>
         
         <script>var menuBtn = document.querySelector('.menu');
       menuBtn.addEventListener('click', function() {
