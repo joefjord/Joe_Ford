@@ -234,6 +234,78 @@
     }
 
 }
+
+@media screen and (max-width: 1066px) {
+    .section-spacer {
+        height: 35px;
+    }
+
+    .section-headers {
+        width: 90%;
+    }
+
+    .section-headers p {
+        width: 90%;
+        max-width: 560px;
+    }
+
+    .section-headers h2 {
+        width: 90%;
+        max-width: 560px;
+    }
+
+    .section-headers small {
+        width: 90%;
+        max-width: 560px;
+    }
+
+    .portfolioTagContainer {
+        height: 105px;
+    }
+
+    .portfolioTags {
+        max-width: 90%;
+        margin: 10px auto 0 auto;
+    }
+
+    .portfolioTags span {
+        margin-right: 0;
+    }
+
+    .portfolioTags span:last-child {
+        margin: 12px 9px 26px 9px;
+      }
+    
+    #work10 {
+        height: 925px;
+        padding-top: 15px;
+    }
+    
+    #work12 {
+        height: 620px;
+    }
+    
+    #work13 {
+        height: 700px;
+    }
+
+   .work-info {
+        width: 100%;
+        padding: 0 25px;
+    }    
+    
+    #tests {
+        height: 750px;
+    }
+
+    #footer > .inner {
+        width: 90%;
+        padding: 0;
+    }
+}
+    
+
+
 @media only screen and (max-width:739px) {
 
 	/* #about-content h3 {
