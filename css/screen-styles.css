@@ -281,7 +281,7 @@ nav a:focus {
   .portfolioTags span a {
   text-align: center;
   text-decoration: none;
-  font: normal normal bold 14px Lato;
+  font: normal normal bold 14px Lato, sans-serif;
   letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;
