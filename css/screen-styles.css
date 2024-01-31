@@ -293,6 +293,7 @@ nav a:focus {
     margin-left: 12px;
     position: relative;
     top: -10px;
+    z-index: -1;
   }
 
 #work-container {
