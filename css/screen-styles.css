@@ -93,7 +93,7 @@ nav a:focus {
     display: inline-block;
     padding: 0 10px;
     margin-top: -10px;
-    background-color: black;
+    background-color: #727785;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -104,7 +104,7 @@ nav a:focus {
 }
 
 .read-button:hover {
-    background-color: #505050; /* Slightly lighter on hover */
+    background-color: rgb(211, 94, 122); /* Slightly lighter on hover */
 }
 
 
