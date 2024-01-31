@@ -82,6 +82,20 @@ nav a:focus {
     font-weight: 300;
     /* width: 100%; */
 }
+/* About Toggle Effect */
+/* Animation */
+#additional-content {
+    transition: all 0.3s ease;
+}
+
+/* Right and down arrow icons */
+.right-arrow::before {
+    content: '→'; /* Unicode right arrow */
+}
+
+.down-arrow::before {
+    content: '↓'; /* Unicode down arrow */
+}
 
 #cv {
 	text-align:left;
