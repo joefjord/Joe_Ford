@@ -85,25 +85,28 @@ nav a:focus {
 /* About Toggle Effect */
 /* Animation */
 #additional-content {
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
-/* Triangle icons */
-.arrow {
+.read-button {
     display: inline-block;
-    width: 0; 
-    height: 0; 
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
+    padding: 8px 15px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.up-arrow {
-    border-bottom: 10px solid black; /* Upward triangle */
+.read-button:hover {
+    background-color: #333; /* Slightly darker on hover */
 }
 
-.down-arrow {
-    border-top: 10px solid black; /* Downward triangle */
-}
 
 
 #cv {
