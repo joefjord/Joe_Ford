@@ -92,7 +92,7 @@ nav a:focus {
     font-size: 12px;
     display: inline-block;
     padding: 0;
-    /* margin-top: 10px; */
+    margin-top: -10px;
     background-color: black;
     color: white;
     text-align: center;
