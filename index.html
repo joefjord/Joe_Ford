@@ -277,8 +277,11 @@
       function bottomBarBtnClick() {
         sampleCompleted('appbar-navdrawer-bottombar-sample.html-bottombarbtnclick');
       }
-      
-      document.getElementById("toggle-link").addEventListener("click", function() {
+
+      </script>
+
+      <script>
+         document.getElementById("toggle-link").addEventListener("click", function() {
     var content = document.getElementById("additional-content");
     var toggleIcon = document.getElementById("toggle-icon");
     var isHidden = content.style.display === "none";
@@ -289,7 +292,6 @@
     // Change link text and icon
     this.innerHTML = isHidden ? "less <span id='toggle-icon' class='down-arrow'></span>" : "more > <span id='toggle-icon' class='right-arrow'></span>";
 });
-
       </script>
 
 
