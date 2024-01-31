@@ -88,14 +88,23 @@ nav a:focus {
     transition: all 0.3s ease;
 }
 
-/* Right and down arrow icons */
-.right-arrow::before {
-    content: '→'; /* Unicode right arrow */
+/* Triangle icons */
+.arrow {
+    display: inline-block;
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
 }
 
-.down-arrow::before {
-    content: '↓'; /* Unicode down arrow */
+.up-arrow {
+    border-bottom: 10px solid black; /* Upward triangle */
 }
+
+.down-arrow {
+    border-top: 10px solid black; /* Downward triangle */
+}
+
 
 #cv {
 	text-align:left;
