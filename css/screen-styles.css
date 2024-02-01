@@ -92,22 +92,22 @@ nav a:focus {
     font-size: 12px;
     box-sizing: border-box;
     display: inline-block;
-    padding: 0 10px;
+    /* padding: 0 10px; */
     margin: 0;
-    margin-top: -10px;
-    background-color: #727785;
-    color: white;
+    /* margin-top: -10px; */
+    background-color:white;
+    color: rgb(211, 94, 122);
     text-align: center;
     text-decoration: none;
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
 }
 
 
 .read-button:hover {
-    background-color: rgb(211, 94, 122); /* Slightly lighter on hover */
+    color: rgb(62, 62, 62); /* Slightly lighter on hover */
 }
 
 
