@@ -251,7 +251,7 @@ nav a:focus {
 }
 
 .current {
-    background: #2c2e33 url("https://joeford.me/images/menuAnimation.gif") no-repeat fixed center top;
+    background: #2c2e33 url("../images/menuAnimation.gif") no-repeat fixed center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -260,7 +260,7 @@ nav a:focus {
 
 .cross a:hover {
     text-shadow: 0px 0px 3px #000;
-    background: #2c2e33 url("https://joeford.me/images/menuAnimation.gif") no-repeat fixed center top;
+    background: #2c2e33 url("../images/menuAnimation.gif") no-repeat fixed center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
