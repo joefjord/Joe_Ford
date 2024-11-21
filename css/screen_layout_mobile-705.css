@@ -165,14 +165,14 @@
           top: 0;
         width: 250px;
         height: 100%;
-        background: #fff url("http://joeford.me/images/Unknown-2.gif") no-repeat fixed center top;
+        background: #fff url("http://joeford.me/images/menuAnimation.gif") no-repeat fixed center top;
           -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 /*
         background-color: rgba(32, 36, 41, 0.96);
-        background-image: url("images/Unknown-2.gif") !important;
+        background-image: url("images/menuAnimation.gif") !important;
         background-repeat: no-repeat;
         background-position: center top;
         background-size: cover;
